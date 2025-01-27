@@ -76,3 +76,52 @@
        부족할때 속성을 통해 더 많은 의미를 부여 -->
 </body>
 </html>
+
+<!-- 인터넷에 연결된 컴퓨터 하나하나를 호스트라고 함 
+ 이런것들을 빌려주는 사업 호스팅, 클라우드
+ 호스팅 중에서 컴퓨터의 웹서버와 같이 웹을 동작하기 위해서 필요한
+ 소프트웨어들까지도 설치해서 빌려주는 비지니스를 웹포스팅이라고 함.
+ 깃허브 웹사이트 업로드 방법
+ 1. 우상단의 + 버튼 new repository클릭
+ 2. 이름 정하고 create
+ 3. uploading an existing file클릭후 웹페이지 소스코드 업로드
+ 4. setting -> pages 웹호스팅 기능 활성화 메뉴 나옴
+    none을 main으로 변경 후 save
+ 5. 웹서버 기능 활성화 진행과정은 actions클릭 후 확인
+ 6. 완료 후 pages에서 주소 생성 확인
+ 
+ 
+*수정시 home의 your repository ->upload files 클릭 후 수정된 파일 업로드
+
+
+
+나의 웹페이지(index.html), 서비스를 대신 제공할 hosting
+웹사이트 방문하는 visitor 존재
+파일 업로드하면 호스팅 업체에서 웹서버 활성화, 컴퓨터 도메인에 이름 부여
+방문자가 도메인 주소에 접속 시 hosting은 웹서버 index.html 읽고 방문자에게 제공-->
+
+<!-- 유튜브영상 우클릭 소스 코드 복사하면 웹페이지에 영상 게시 가능능 -->
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/ueWCI2XGQ5k" 
+title="Wheel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+ picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://first-web-46kvxrlipg.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
